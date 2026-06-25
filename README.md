@@ -60,4 +60,4 @@ Somesh Shakya
 
 ## Repository
 
-[https://github.com/Someshshakya/paradise-shoping-nursery](https://github.com/Someshshakya/paradise-shoping-nursery)
+[https://github.com/Someshshakya/e-plantShopping](https://github.com/Someshshakya/e-plantShopping)

@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart, selectIsInCart } from '../store/CartSlice';
+import { addItem, selectIsInCart } from '../store/CartSlice';
 import { plantCategories } from '../data/plants';
 import './ProductList.css';
 
@@ -9,7 +9,7 @@ function ProductCard({ plant }) {
 
   const handleAddToCart = () => {
     if (!inCart) {
-      dispatch(addToCart(plant));
+      dispatch(addItem(plant));
     }
   };
 
