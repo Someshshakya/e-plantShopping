@@ -1,0 +1,77 @@
+.landing-page {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&h=900&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.landing-overlay {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.landing-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.hero-section {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.hero-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #4caf50;
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 28px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.get-started-btn:hover {
+  background-color: #43a047;
+}
+
+.about-us {
+  flex: 1;
+  min-width: 280px;
+  color: white;
+  line-height: 1.7;
+}
+
+.about-us p {
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
